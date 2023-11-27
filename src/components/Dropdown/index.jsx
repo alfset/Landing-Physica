@@ -14,7 +14,7 @@ const DropdownMenu = (props) => {
       </label>
       <ul
         tabIndex={0}
-        className={`menu menu-sm dropdown-content mt-0 z-[1] ${padding} gap-2 shadow shadow-black/20 dark:shadow-secondary bg-white dark:bg-primary opacity-0 rounded-box ${width}`}
+        className={`menu menu-vertical w-80 dropdown-content mt-0 z-[1] ${padding} gap-2 shadow shadow-black/20 dark:shadow-secondary bg-white dark:bg-primary opacity-0 rounded-box ${width}`}
       >
         {items.map((item, index) => (
           <DropdownItem key={index} url={item.url} target={item.target}>

@@ -86,22 +86,22 @@ const Footer = () => {
 
   const icons = [
     {
-      url: '#',
+      url: 'https://twitter.com/PlanqFoundation',
       faIcon: <FaTwitter size={24} />,
     },
     {
-      url: '#',
+      url: 'https://discord.com/invite/planq-network',
       faIcon: <FaDiscord size={24} />,
     },
     {
-      url: '#',
+      url: 'https://t.me/planqnetwork',
       faIcon: <FaTelegramPlane size={24} />,
     },
   ];
 
   const renderLinks = (title, items) => (
     <nav className="flex flex-col" key={title}>
-      <header className="footer-title text-blue-900 dark:text-gray-200">
+      <header className="text-blue-900 footer-title dark:text-gray-200">
         {title}
       </header>
       {items.map((item, index) => (
@@ -114,16 +114,16 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="p-10 px-20 mx-auto bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-blue-950/10 to-white dark:from-blue-800/90 dark:to-primary dark:bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] text-blue-950 dark:text-neutral">
+      <footer className="p-10 px-5 lg:px-20 mx-auto bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-blue-950/10 to-white dark:from-blue-800/90 dark:to-primary dark:bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] text-blue-950 dark:text-neutral">
         <div className="flex flex-col gap-6">
           <div className="footer">
-            <aside className="items-center grid-flow-col  max-w-xs">
+            <aside className="items-center max-w-xs grid-flow-col">
               <div className="flex flex-col">
                 <div>
                   <img src="./favicon.svg" width={50} height={50} alt="" />
                   <p className="text-xl font-semibold">Planq Network</p>
                 </div>
-                <p className="text-sm font-medium text-blue-900/90 dark:text-gray-400 py-2">
+                <p className="py-2 text-sm font-medium text-blue-900/90 dark:text-gray-400">
                   Planq network opens up the full blockchain potential of your
                   phone with easy accessibility.
                 </p>
@@ -146,7 +146,7 @@ const Footer = () => {
             <nav className="md:place-self-center md:justify-self-end">
               <div className="grid grid-flow-col gap-4">
                 {icons.map((icon, index) => (
-                  <Link to={icon.url} key={index}>
+                  <Link to={icon.url} key={index} target="_blank">
                     {icon.faIcon}
                   </Link>
                 ))}
