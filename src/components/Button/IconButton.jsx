@@ -6,7 +6,7 @@ const IconButton = ({ onClick, gradient, iconColor, text, icon, padding }) => {
       data-collapse-toggle="navbar-sticky"
       type="button"
       onClick={onClick}
-      className={`${gradient} text-${iconColor}  rounded-lg ${padding} focus:outline-none focus:ring`}
+      className={`${gradient} text-${iconColor}  ${padding} focus:outline-none focus:ring`}
       aria-controls="navbar-sticky"
       aria-expanded="false"
     >

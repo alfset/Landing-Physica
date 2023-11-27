@@ -13,7 +13,7 @@ const DropdownItem = (props) => {
       <a
         href={url}
         target={target}
-        className={`block px-4 py-2 text-sm w-full `}
+        className={`block px-4 py-2 text-sm w-full`}
         role="menuitem"
       >
         <div className="flex items-center w-full gap-3 flex-nowrap">

@@ -146,6 +146,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .coins {
+    top: calc(280%);
+  }
+}
+
 .coins li{
   position: absolute;
   display: block;

@@ -10,7 +10,7 @@ const Nav = () => {
     {
       icon: <FaSwimmingPool />,
       text: 'Pool',
-      url: 'https://3000-alfset-physicainterfae-z1ncymx2xii.ws-us106.gitpod.io/#/pools',
+      url: 'https://app.physica.finance/#/pools',
       target: '',
     },
     {
@@ -28,13 +28,13 @@ const Nav = () => {
   return (
     <ul className={`menu menu-horizontal gap-2`}>
       <NavItem
-        url="https://3000-alfset-physicainterfae-z1ncymx2xii.ws-us106.gitpod.io/#/swap"
+        url="https://app.physica.finanace/#/swap"
         textColor="text-neutral"
       >
         Trade
       </NavItem>
       <NavItem
-        url="https://3000-alfset-physicainterfae-z1ncymx2xii.ws-us106.gitpod.io/#/bridge"
+        url="https://bridge.portal.physica.finance"
         target="_blank"
         textColor="text-neutral"
       >
