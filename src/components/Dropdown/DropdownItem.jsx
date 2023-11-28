@@ -5,7 +5,7 @@ const DropdownItem = (props) => {
     icon,
     children = 'Home',
     target,
-    url = 'https://comunity-node.gitbook.io/planq-network-dapps-team/building-overview/dex-service/liquidity-pools-and-swap-function',
+    url = 'https://physica.finance',
   } = props;
 
   return (
