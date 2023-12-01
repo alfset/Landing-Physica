@@ -30,7 +30,7 @@ const CustomCarousel = () => {
   ];
   return (
     <Swiper
-      className="bg-transparent swiper"
+      className="bg-transparent  swiper"
       effect={'coverflow'}
       grabCursor={true}
       spaceBetween={30}
@@ -66,9 +66,9 @@ const CustomCarousel = () => {
       modules={[Keyboard, Pagination, EffectCoverflow]}
     >
       {slidesData.map((slide, index) => (
-        <SwiperSlide key={index} className="px-5 bg-transparent lg:px-0">
+        <SwiperSlide key={index} className="px-0 bg-transparent lg:px-0">
           <Link to={slide.url} target="_blank">
-            <div className="card w-full bg-[#020121] dark:bg-primary shadow shadow-blue-950 dark:shadow-primary h-80">
+            <div className="card w-full bg-[#020121] dark:bg-primary shadow-xs md:shadow-sm lg:shadow-xl shadow-blue-950 dark:shadow-primary h-80">
               <div className="justify-center pt-5 card-actions">
                 <Button other="btn-sm bg-transparent border-2 border-blue-500 dark:border-accent">
                   <span className="text-sm font-medium text-blue-500 dark:text-accent">

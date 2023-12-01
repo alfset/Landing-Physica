@@ -24,25 +24,25 @@ const Navbar = () => {
     {
       icon: <FaRocket className="text-blue-950 dark:text-neutral" />,
       children: 'Trade',
-      url: 'https://test-token.factory.physica.finance',
+      href: 'https://app.physica.finance/#/swap',
       target: '',
     },
     {
       icon: <FaTools className="text-blue-950 dark:text-neutral" />,
       children: 'Bridge',
-      url: 'https://test-token.factory.physica.finance',
+      href: 'https://test-token.factory.physica.finance',
       target: '_blank',
     },
     {
       icon: <FaSwimmingPool className="text-blue-950 dark:text-neutral" />,
       children: 'Pool',
-      url: 'https://test-token.factory.physica.finance',
+      href: 'https://app.physica.finance/#/pools',
       target: '',
     },
     {
       icon: <FaWallet className="text-blue-950 dark:text-neutral" />,
       children: 'Staking',
-      url: 'https://test-token.factory.physica.finance',
+      href: 'https://restake.app/planq',
       target: '_blank',
     },
   ];
@@ -157,7 +157,11 @@ const Navbar = () => {
           {/* moon icon */}
           <FaMoon className="w-6 h-6 text-neutral dark:text-blue-950 swap-off" />
         </label>
-        <Button other="text-white dark:text-neutral bg-blue-800 hover:bg-blue-500 dark:bg-accent dark:hover:bg-blue-500 btn-sm shadow-md shadow-blue-800 dark:shadow-accent px-5 border-0">
+        <Button
+          url="https://app.physica.finance/#/swap"
+          target=""
+          other="text-white dark:text-neutral bg-blue-800 hover:bg-blue-500 dark:bg-accent dark:hover:bg-blue-500 btn-sm shadow-md shadow-blue-800 dark:shadow-accent px-5 border-0"
+        >
           Launch App
         </Button>
       </div>

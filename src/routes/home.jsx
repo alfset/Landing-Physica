@@ -129,7 +129,7 @@ function Page() {
               </p>
               <div className="text-center lg:text-start">
                 <Button
-                  url="swap"
+                  url="https://app.physica.finance/#/swap"
                   other="animate-bounce btn-sm px-4 h-10 inline-flex justify-center items-center gap-4 flex-shrink-0 bg-blue-800 hover:bg-blue-500 dark:bg-accent dark:hover:bg-blue-500 hover:shadow-info hover:text-primary shadow shadow-blue-800 dark:shadow-accent border-0"
                 >
                   <span className="text-white">Get Started</span>
