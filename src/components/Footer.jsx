@@ -114,7 +114,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="p-10 px-5 lg:px-20 mx-auto bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-blue-950/10 to-white dark:from-blue-800/90 dark:to-primary dark:bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] text-blue-950 dark:text-neutral">
+      <footer className="p-10 px-5 md:px-10 lg:px-20 mx-auto bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-blue-950/10 to-white dark:from-blue-800/90 dark:to-primary dark:bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] text-blue-950 dark:text-neutral">
         <div className="flex flex-col gap-6">
           <div className="footer">
             <aside className="items-center max-w-xs grid-flow-col">

@@ -27,7 +27,7 @@ function Page() {
       component: (
         <Button
           btnType="px-8"
-          url="#"
+          url="https://app.physica.finance/#/swap"
           other="bg-transparent border-2 border-purple-400 hover:border-purple-400 hover:bg-purple-400"
         >
           <Text className="font-semibold title-trade hover:text-neutral">
@@ -71,7 +71,7 @@ function Page() {
       component: (
         <Button
           btnType="px-8"
-          url="#"
+          url="https://app.physica.finance/#/pools"
           other="bg-transparent border-2 border-info hover:border-info hover:bg-info"
         >
           <Text className="font-semibold title-earn hover:text-neutral dark:hover:text-primary">
@@ -129,7 +129,7 @@ function Page() {
               </p>
               <div className="text-center lg:text-start">
                 <Button
-                  url="swap"
+                  url="https://app.physica.finance/#/swap"
                   other="animate-bounce btn-sm px-4 h-10 inline-flex justify-center items-center gap-4 flex-shrink-0 bg-blue-800 hover:bg-blue-500 dark:bg-accent dark:hover:bg-blue-500 hover:shadow-info hover:text-primary shadow shadow-blue-800 dark:shadow-accent border-0"
                 >
                   <span className="text-white">Get Started</span>

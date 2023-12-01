@@ -28,13 +28,13 @@ const Nav = () => {
   return (
     <ul className={`menu menu-horizontal gap-2`}>
       <NavItem
-        url="https://app.physica.finanace/#/swap"
+        url="https://app.physica.finance/#/swap"
         textColor="text-neutral"
       >
         Trade
       </NavItem>
       <NavItem
-        url="https://bridge.portal.physica.finance"
+        url="https://test-token.factory.physica.finance"
         target="_blank"
         textColor="text-neutral"
       >
